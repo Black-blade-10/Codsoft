@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:black;
+}
+
+.head nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color:yellow;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+nav h1{
+    font-size: x-large;
+    padding: 2%;
+}
+nav ul{
+    display: inline;
+    padding-right: 4%;
+
+}
+nav li{
+    display: inline;
+    font-size: larger;
+    font-weight: bold;    
+}
+nav li:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.greet h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 2%;
+    margin-top: 3%;  
+    text-align: center;    
+    color: yellowgreen;
+}
+.para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color:white;
+    padding: 3%;
+}
+.search{
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.About{
+    color:white;
+    text-align: center;
+}
+.Product{
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-evenly;
+     padding: 3%;
+}
